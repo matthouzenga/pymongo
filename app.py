@@ -11,7 +11,7 @@ app = Flask(__name__)
 #connect to mongodb
 
 #mongo_URI = "mongodb://mongoadmin:password@localhost:27017/"
-mongo_URI = "mongodb://myUserAdmin:password@localhost:27017/"
+mongo_URI = "mongodb://myUserAdmin:password@mongodb:27017/"
 client = MongoClient(mongo_URI)
 db = client['testdb']
 
